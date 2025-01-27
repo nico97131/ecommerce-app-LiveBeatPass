@@ -1,0 +1,93 @@
+/* OrderSummary.css */
+.order-summary {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-summary h1,
+  .order-summary h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .order-summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-summary .order-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+  }
+  
+  .order-summary .order-item span {
+    font-size: 1rem;
+  }
+  
+  .order-total {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 1rem;
+  }
+  
+  .order-summary p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .order-summary .btn {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+  }
+  
+  .order-summary .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .order-summary h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #444;
+  }
+  
+  .order-summary p,
+  .order-summary span {
+    color: #666;
+  }
+  
+  .delivery-options {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem; /* Espaciado entre las opciones */
+    align-items: center; /* Alinea verticalmente los elementos */
+    flex-wrap: wrap; /* Asegura que las opciones no se desborden */
+  }
+  
+  
+  .delivery-option {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el input y el texto */
+    gap: 0.5rem; /* Espacio entre el input y el texto */
+    white-space: nowrap; /* Asegura que el texto no se divida en varias líneas */
+  }
+  
